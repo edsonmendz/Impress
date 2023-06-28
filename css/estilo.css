@@ -21,6 +21,7 @@ h1 {
 
 h4 {
     white-space: wrap;
+    font-size: 1.6em;
 }
 
 h6 {
@@ -33,6 +34,7 @@ img {
 
 a {
     color: white;
+    font-size: 1.4em;
 }
 
 p {
