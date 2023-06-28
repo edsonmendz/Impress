@@ -14,6 +14,10 @@ img {
     max-height: 140px;
 }
 
+p {
+    white-space: wrap;
+}
+
 .col-md-4 {
     margin: 10px 0px;
     padding-right: calc(var(--bs-gutter-x) * 1.5);
@@ -22,4 +26,11 @@ img {
 
 #mais {
     margin-bottom: 5%;
+}
+
+.badge {
+    
+    --bs-badge-color: #000;
+    background-color: #ccc;
+    --bs-bg-opacity: 0.25;
 }
