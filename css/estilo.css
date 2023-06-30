@@ -1,5 +1,5 @@
 body {
-    background-image: linear-gradient( rgb(232,74,208), purple);
+    background-image: white;
     background-repeat: no-repeat;
     color: white;
 }
@@ -17,6 +17,10 @@ header h5 {
 
 h1 {
     margin-bottom: 1rem;
+    font-family: Urban;
+    font-size: 5em;
+    color: black;
+    animation: animate__fadeInUp 3s timing-function 0 iteration-count direction fill-mode;
 }
 
 h4 {
@@ -40,9 +44,6 @@ a {
 p {
     white-space: wrap;
 }
-
-
-
 
 .col-md-5 {
     margin-top: 3%;
