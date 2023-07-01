@@ -17,8 +17,8 @@ header h5 {
 
 h1 {
     margin-bottom: 1rem;
-    font-family: Urban;
-    font-size: 5em;
+    font-family: Digital;
+    font-size: 15em;
     color: black;
     animation: animate__fadeInUp 3s timing-function 0 iteration-count direction fill-mode;
 }
