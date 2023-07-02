@@ -1,7 +1,7 @@
 body {
     background-image: white;
     background-repeat: no-repeat;
-    color: white;
+    
 }
 header {
     padding-top: 0%;
@@ -16,9 +16,9 @@ header h5 {
 }
 
 h1 {
-    margin-bottom: 1rem;
+    margin-bottom: 0em;
     font-family: Digital;
-    font-size: 15em;
+    font-size: 7em;
     color: black;
     animation: animate__fadeInUp 3s timing-function 0 iteration-count direction fill-mode;
 }
@@ -29,7 +29,7 @@ h4 {
 }
 
 h6 {
-    color: white;
+    color: black;
 }
 
 img {
