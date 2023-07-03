@@ -22,11 +22,75 @@
     </style>    
 </head>
 <body>
-    <header>
+    <div class="main-container d-flex text-center">
+      <div class="sidebar" id="side_nav">
+        <div class="header-box px-3 pt-3 pb-4 d-flex">
+          <button class="btn d-md-none flex-shrink-1 px-2 py-0 escondido"><i class="fa-solid fa-bars-staggered"></i></button>
+          <h1 class="fs-4 w-100"><span class="bg-white text-dark rounded shadow px-2 me-2">Impress</span></h1>
+          <button class="btn d-md-none flex-shrink-1 close-btn px-1 py-0 text-white"><i class="fa-solid fa-bars-staggered"></i></button>
+        </div>
+        <ul class="list-unstyled px-2">
+          <li class=""> <a href="#">Dashboard</a></li>
+          <li class=""> <a href="#">Outros Botões</a></li>
+          <li class=""> <a href="#">Para Selecionar</a></li>
+        </ul>
+        <hr class="mx-3">
+        <ul class="list-unstyled px-2">
+          <li class="text-light"><h6>Encontre-me nas redes:</h6></li>
+          <li><a href="https://wa.me/message/SKO4X5TIZFKFL1" class="btn btn-outline-light">
+            <i class="fa-brands fa-whatsapp fa-lg"></i>
+          </a>
+          <a href="https://github.com/edsonmendz" class="btn btn-outline-light ml-2">
+            <i class="fa-brands fa-github"></i>
+          </a>
+          <a href="https://www.linkedin.com/in/edson-mendes-fullsctack/" class="btn btn-outline-light ml-2">
+            <i class="fa-brands fa-linkedin"></i>
+          </a></li>
+        </ul>
+      </div>
+      <div class="content">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#">Navbar</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Link</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Dropdown
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link disabled">Disabled</a>
+                </li>
+              </ul>
+              <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Search</button>
+              </form>
+            </div>
+          </div>
+        </nav>
+      </div>
+      <!-- <header>
         <h1><span>Impress</span></h1>
         <p>Bem-vindo(a) ao nosso site de portfólio! Aqui você encontrará uma coleção cuidadosamente selecionada de trabalhos criativos. Explore as nossas páginas para descobrir a diversidade de projetos. Esperamos que nossa inspiração estimule a sua criatividade.</p>             
-    </header>
-    <div class="container text-center">
+      </header>
+        
         <div class="row justify-content-around">
             <div class="col-md-5 badge bg-white transition-timing-function">
                 <a href="http://phplista.great-site.net/index.php">
@@ -50,27 +114,10 @@
                 <img id="mais" src="img/mais sites.png" class="img-fluid">
                 <h4>Mais sites ainda estão por vir!</h4>
             </div>   
-          </div> 
-    </div>    
-    <footer class="mt-4 mb-4">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-6 d-flex justify-content-center align-items-center">
-              <h6>Encontre-me nas redes:</h6>
-            </div>
-            <div class="col-md-6 d-flex justify-content-center">
-              <a href="https://wa.me/message/SKO4X5TIZFKFL1" class="btn btn-outline-dark">
-                <i class="fa-brands fa-whatsapp fa-lg"></i>
-              </a>
-              <a href="https://github.com/edsonmendz" class="btn btn-outline-dark ml-2">
-                <i class="fa-brands fa-github"></i>
-              </a>
-              <a href="https://www.linkedin.com/in/edson-mendes-fullsctack/" class="btn btn-outline-dark ml-2">
-                <i class="fa-brands fa-linkedin"></i>
-              </a>
-            </div>
-          </div>
-        </div>
-    </footer>
+          </div>-->         
+    </div>       
 </body>
+
+<script src="js/jquery-3.7.0.js"></script>
+<script src="js/script.js"></script>
 </html>

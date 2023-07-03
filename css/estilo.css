@@ -1,16 +1,41 @@
 body {
-    background-image: white;
-    background-repeat: no-repeat;
-    
-}
-header {
-    padding-top: 0%;
-    text-align: center;
-    margin-top: 5%;
-    margin-bottom: 5%;    
+    background-image: white;    
 }
 
-header h5 {
+.content {
+    min-height: 100vh;
+    width: 100%;
+}
+
+hr{
+    color: white;
+}
+
+.sidebar li.active{
+    background: white;
+    border-radius: 8px;
+}
+
+.sidebar li.active a, .sidebar li.active a:hover{
+    color: black;
+}
+
+.sidebar li a {
+    color: white;
+}
+
+.escondido {
+    color: black;
+}
+
+
+/* header {
+    padding-top: 0%;
+    text-align: center;
+    margin-bottom: 5%;    
+} */
+
+/* header h5 {
     margin-left: 8%;
     margin-right: 8%;
 }
@@ -21,9 +46,9 @@ h1 {
     font-size: 7em;
     color: black;
     animation: animate__fadeInUp 3s timing-function 0 iteration-count direction fill-mode;
-}
+} */
 
-h4 {
+/* h4 {
     white-space: wrap;
     font-size: 1.6em;
 }
@@ -34,18 +59,22 @@ h6 {
 
 img {
     max-height: 140px;
-}
+} */
 
 a {
     color: white;
     font-size: 1.4em;
 }
 
-p {
+/* p {
     white-space: wrap;
+} */
+
+ul li a {
+    text-decoration: none;
 }
 
-.col-md-5 {
+/* .col-md-5 {
     margin-top: 3%;
     margin-bottom: 3%;
     padding-top: 2%;
@@ -59,8 +88,14 @@ p {
 
 #mais {
     margin-bottom: 5%;
+} */
+
+#side_nav {
+    background: black;
+    min-width: 250px;
+    max-width: 250px;
 }
 
-.bg-white {       
+/* .bg-white {       
     --bs-bg-opacity: 0.08;
-}
+} */
