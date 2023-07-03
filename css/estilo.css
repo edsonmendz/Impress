@@ -28,6 +28,18 @@ hr{
     color: black;
 }
 
+@media(max-width:767px){
+    #side_nav {
+        margin-left: -250px;
+        position: fixed;
+        min-height: 100vh;
+        z-index: 1;
+    }
+    #side_nav.active {
+        margin-left: 0px;
+    }
+}
+
 
 /* header {
     padding-top: 0%;
