@@ -11,6 +11,10 @@ hr{
     color: white;
 }
 
+#foto {
+    width: 30%;
+}
+
 .sidebar li.active{
     background: white;
     border-radius: 8px;
@@ -44,6 +48,10 @@ hr{
     }
     #side_nav.active {
         margin-left: 0px;
+    }
+
+    #foto {
+        width: 75%;
     }
 }
 

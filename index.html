@@ -25,8 +25,8 @@
     <div class="main-container d-flex text-center">
       <div class="sidebar" id="side_nav">
         <div class="header-box px-3 pt-3 pb-4 d-flex justify-content-between">
-          <button class="btn d-md-none flex-shrink-1 px-2 py-0 escondido"><i class="fa-solid fa-bars-staggered"></i></button>
-          <h1 class="fs-4 w-100"><span class="bg-white text-dark rounded shadow px-2 me-2">Impress</span></h1>
+          <button class="btn d-md-none flex-shrink-1 px-2 py-0 opacity-0 escondido"><i class="fa-solid fa-bars-staggered"></i></button>
+          <a href="#" id="impress"><h1 class="fs-4 w-100"><span class="bg-white text-dark rounded shadow px-2 me-2">Impress</span></h1></a>
           <button class="btn d-md-none flex-shrink-1 close-btn px-1 py-0 text-white"><i class="fa-solid fa-bars-staggered"></i></button>
         </div>
         <ul class="list-unstyled px-2">
@@ -53,14 +53,21 @@
           <div class="container-fluid">
             <div class="d-flex justify-content-between d-md-none d-block text-center">            
               <button class="btn open-btn px-2 py-0 text-dark btn-outline-dark"><i class="fa-solid fa-bars-staggered"></i></button>
-              <a class="fs-4 navbar-brand mr-auto w-100" href="#">Cabeçalho</a>
+              <a class="fs-4 navbar-brand mr-auto w-100" href="#">Impress</a>
               <button class="btn px-2 py-0 text-dark opacity-0"><i class="fa-solid fa-bars-staggered"></i></button>
             </div>                      
           </div>
         </nav>
 
-        <div class="dashboard-content px-3 pt-4" id="principal">
-          <h2 class="fs-5">Conteúdo</h2>
+        <div class="dashboard-content px-3 pt-4" onload="" id="principal">
+          <div class="container">	
+            <div class="row">
+              <div class="col">
+                <h2>Edson Mendes</h2>
+                <img id="foto" src="img/Edson.jpeg" alt="">
+              </div>
+            </div>
+          </div>
         </div>
 
       </div>
