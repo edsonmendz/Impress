@@ -1,7 +1,7 @@
 $(document).ready(function() {   
 
     // coloração da sidebar
-    $(".sidebar ul li").on('click', function (){
+    $(".sidebar ul li, .sidebar div a").on('click', function (){
       $(".sidebar ul li.active").removeClass('active');            
       $(this).addClass('active');      
     });
@@ -22,7 +22,7 @@ $(document).ready(function() {
           $('#principal').html(data)          
       })      
             
-      $('#cabecalho').html($('#home').html()) 
+      $('#cabecalho').html('Impress') 
     })
 
     $('#quem_sou').on('click', () => {      
@@ -30,6 +30,14 @@ $(document).ready(function() {
           $('#principal').html(data)
       })
 
-      $('#cabecalho').html($('#quem_sou').html())       
+      $('#cabecalho').html('Quem Sou')       
+    })
+
+    $('#projetos').on('click', () => {      
+      $.get('paginas/projetos.html', data => {
+          $('#principal').html(data)
+      })
+
+      $('#cabecalho').html('Projetos')       
     })
 })
