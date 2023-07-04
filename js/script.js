@@ -1,7 +1,7 @@
 $(document).ready(function() {   
 
     // coloração da sidebar
-    $(".sidebar ul li, .sidebar div a").on('click', function (){
+    $(".sidebar ul li, #impress").on('click', function (){
       $(".sidebar ul li.active").removeClass('active');            
       $(this).addClass('active');      
     });
@@ -18,8 +18,8 @@ $(document).ready(function() {
     // chamar páginas
 
     $('#impress').on('click', () => {      
-      $.get('paginas/impress.html', data => {
-          $('#principal').html(data)          
+      $.get('paginas/capa.html', data => {
+          $('#principal').html(data)
       })      
             
       $('#cabecalho').html('Impress') 
