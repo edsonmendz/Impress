@@ -1,7 +1,4 @@
-$(document).ready(function() {
-    $.get('paginas/impress.html', data => {
-      $('#principal').html(data)
-    })
+$(document).ready(function() {   
 
     // coloração da sidebar
     $(".sidebar ul li").on('click', function (){
@@ -22,13 +19,17 @@ $(document).ready(function() {
 
     $('#impress').on('click', () => {      
       $.get('paginas/impress.html', data => {
-          $('#principal').html(data)
-      })
+          $('#principal').html(data)          
+      })      
+            
+      $('#cabecalho').html($('#home').html()) 
     })
 
     $('#quem_sou').on('click', () => {      
       $.get('paginas/quem_sou.html', data => {
           $('#principal').html(data)
       })
+
+      $('#cabecalho').html($('#quem_sou').html())       
     })
 })
