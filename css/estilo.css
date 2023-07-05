@@ -24,22 +24,22 @@ body {
     color: black;
 }
 
-.sidebar li a {
+.sidebar ul li a {
     color: white;
 }
 
-.escondido {
+.sidebar ul li a:hover {
     color: black;
 }
 
 
-
+.btn-outline-light:hover {
+    background-color: rgba(255, 255, 255, 1);
+}
 
 #side_nav {
     transition: all 0.25s;
 }
-
-
 
 @media(max-width:767px){
     #side_nav {

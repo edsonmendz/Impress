@@ -1,11 +1,10 @@
 $(document).ready(function() {   
 
     // coloração da sidebar
-    $(".sidebar ul li, #impress").on('click', function (){
+    $("#interno li, #impress").on('click', function (){
       $(".sidebar ul li.active").removeClass('active');            
       $(this).addClass('active');      
     });
-
 
     // chamar sidebar
     $('.open-btn').on('click', function() {
