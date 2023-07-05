@@ -39,4 +39,12 @@ $(document).ready(function() {
 
       $('#cabecalho').html('Projetos')       
     })
+
+    $('#tecnologias').on('click', () => {      
+      $.get('paginas/tecnologias.html', data => {
+          $('#principal').html(data)
+      })
+
+      $('#cabecalho').html('Tecnologias')       
+    })
 })

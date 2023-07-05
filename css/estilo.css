@@ -41,21 +41,7 @@ body {
     transition: all 0.25s;
 }
 
-.bloco_de_notas {
-    background: url(../img/bloco.jpg);
-    background-repeat: no-repeat;
-    background-position-x: center;   
-    min-height: 320px;
-}
 
-.conteudo-bloco {
-    block-size: 230px;    
-    margin-top: 19%;
-    margin-bottom: 15%;    
-    margin-left:25%;
-    margin-right: 21%;
-    background-color: red;
-}
 
 .carousel-control-next, .carousel-control-prev {
 	width: 5%;
