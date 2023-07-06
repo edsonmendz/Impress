@@ -38,11 +38,6 @@
     transition: all 0.25s;
 }
 
-.bloco {
-   display: flex;
-   flex-flow: column;
-   height: 100%;
-}
 
 .margem-negativa {
     z-index: 1;
