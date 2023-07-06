@@ -38,13 +38,15 @@
     transition: all 0.25s;
 }
 
+.carousel-item {
+    height: 331px;
+}
 
 .margem-negativa {
     z-index: 1;
     margin-top: -75%;
     margin-left: 27%;    
-    margin-right: auto;
-    margin-bottom: 10%;
+    margin-right: auto;    
     max-width: 50%;    
 }
 
@@ -55,7 +57,7 @@
 }
 
 .margem-negativa p {
-    margin-top: 8%;
+    margin-top: 5%;
 }
 
 .carousel-control-next, .carousel-control-prev {
