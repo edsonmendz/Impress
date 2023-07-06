@@ -1,6 +1,3 @@
-body {
-    background-image: white;    
-}
 
 .content {
     min-height: 100vh;
@@ -41,7 +38,30 @@ body {
     transition: all 0.25s;
 }
 
+.bloco {
+   display: flex;
+   flex-flow: column;
+   height: 100%;
+}
 
+.margem-negativa {
+    z-index: 1;
+    margin-top: -75%;
+    margin-left: 27%;    
+    margin-right: auto;
+    margin-bottom: 10%;
+    max-width: 50%;    
+}
+
+.margem-negativa a {
+    color: black;
+    text-transform: none;
+    text-decoration: none;
+}
+
+.margem-negativa p {
+    margin-top: 8%;
+}
 
 .carousel-control-next, .carousel-control-prev {
 	width: 5%;
