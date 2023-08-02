@@ -38,36 +38,95 @@
     transition: all 0.25s;
 }
 
-.carousel-item {
-    height: 331px;
-}
-
-.margem-negativa {
-    z-index: 1;
-    margin-top: -75%;
-    margin-left: 27%;    
-    margin-right: auto;    
-    max-width: 50%;    
-}
-
-.margem-negativa a {
+.link {
     color: black;
-    text-transform: none;
+}
+
+/*
+    Luzes, Câmera, Ação
+*/
+
+:root {
+    --gradient: linear-gradient(
+        90deg,
+        rgb(255 0 0),
+        rgb(0 255 0),
+        rgb(255 255 0),
+        rgb(127 127 0)
+    ) 
+}
+
+:root {
+    --gradient2: linear-gradient(
+        90deg,
+        rgb(0 0 255),
+        rgb(255 0 255),
+        rgb(255 0 255),
+        rgb(127 0 127)
+    )
+}
+
+:root {    
+    --gradient3: linear-gradient(
+        90deg,
+        rgb(0 255 0),
+        rgb(255 0 0),
+        rgb(0 255 255),
+        rgb(0 127 127)
+    )
+}
+
+.colorido {     
+    
+    animation-duration: 0.3s;
+    animation-name: bg;
+    animation-iteration-count: infinite;
+}
+
+.bloco {
+    display: inline-block;
+}
+
+.site {
     text-decoration: none;
-    overflow: auto;
 }
 
-.margem-negativa p {
-    margin-top: 5%;
+@keyframes bg {
+    0% {
+        background-image: var(--gradient);
+        background-clip: text;
+        -webkit-background-clip: text;    
+        color: transparent;
+        padding: 1px;
+        border-bottom: 4px solid white;
+        border-image: var(--gradient) 1;    
+    }
+    50% {
+        background-image: var(--gradient2);
+        background-clip: text;
+        -webkit-background-clip: text;    
+        color: transparent;
+        padding: 1px;
+        border-bottom: 4px solid white;
+        border-image: var(--gradient2) 1;
+    }
+    100% {
+        background-image: var(--gradient3);
+        background-clip: text;
+        -webkit-background-clip: text;    
+        color: transparent;
+        padding: 1px;
+        border-bottom: 4px solid white;
+        border-image: var(--gradient3) 1;
+    }
 }
 
-.carousel-control-next, .carousel-control-prev {
-	width: 5%;
-}
 
-.caderno {
-    width: 90%;
-}
+
+/*
+    Media Queries
+*/
+
 
 @media(max-width:767px){
     #side_nav {
