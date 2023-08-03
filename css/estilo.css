@@ -46,41 +46,18 @@
     Luzes, Câmera, Ação
 */
 
-:root {
-    --gradient: linear-gradient(
-        90deg,
-        rgb(255 0 0),
-        rgb(0 255 0),
-        rgb(255 255 0),
-        rgb(127 127 0)
-    ) 
-}
 
-:root {
-    --gradient2: linear-gradient(
+.colorido {
+    background: linear-gradient(
         90deg,
-        rgb(0 0 255),
-        rgb(255 0 255),
-        rgb(255 0 255),
-        rgb(127 0 127)
-    )
-}
-
-:root {    
-    --gradient3: linear-gradient(
-        90deg,
-        rgb(0 255 0),
-        rgb(255 0 0),
-        rgb(0 255 255),
-        rgb(0 127 127)
-    )
-}
-
-.colorido {     
-    
-    animation-duration: 0.3s;
-    animation-name: bg;
-    animation-iteration-count: infinite;
+        #000,
+        #fff,
+    );        
+    -webkit-background-clip: text;        
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
+    animation: gradient 8s ease-in-out infinite;      
 }
 
 .bloco {
@@ -92,35 +69,16 @@
 }
 
 @keyframes bg {
-    0% {
-        background-image: var(--gradient);
-        background-clip: text;
-        -webkit-background-clip: text;    
-        color: transparent;
-        padding: 1px;
-        border-bottom: 4px solid white;
-        border-image: var(--gradient) 1;    
+    0% {       
+        background-position: 0% 50%;
     }
     50% {
-        background-image: var(--gradient2);
-        background-clip: text;
-        -webkit-background-clip: text;    
-        color: transparent;
-        padding: 1px;
-        border-bottom: 4px solid white;
-        border-image: var(--gradient2) 1;
+        background-position: 100% 50%;
     }
     100% {
-        background-image: var(--gradient3);
-        background-clip: text;
-        -webkit-background-clip: text;    
-        color: transparent;
-        padding: 1px;
-        border-bottom: 4px solid white;
-        border-image: var(--gradient3) 1;
+        background-position: 0% 50%;
     }
 }
-
 
 
 /*
