@@ -12,6 +12,10 @@
     width: 30%;
 }
 
+#fechar {
+    margin-bottom: 0.5rem;
+}
+
 .sidebar li.active{
     background: white;
     border-radius: 8px;
