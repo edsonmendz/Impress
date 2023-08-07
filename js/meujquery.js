@@ -47,4 +47,7 @@ $(document).ready(function() {
 
       $('#cabecalho').html('Tecnologias')       
     })
+
+    // Música autoplay
+    
 })

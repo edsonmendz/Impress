@@ -129,11 +129,8 @@
 }
 
 @media(min-width:768px){
-    .invisivelGrande {
-        opacity: 0;
-    }
-    .invisivelGrande:hover {    
-        cursor: default;
+    h6 {
+        padding-left: 2rem;
     }
 }
 
@@ -152,8 +149,10 @@
     --bs-btn-active-bg: #fff;
 }
 
-
-
+#som {
+    width: 20px;
+    height: 20px;
+}
 
 /*
  Testesssss

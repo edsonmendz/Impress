@@ -1,5 +1,5 @@
 
-
+// Música
 function playAudio () {    
     let x = document.getElementById("myAudio");
     x.play();
@@ -13,14 +13,16 @@ function pauseAudio () {
 estado = 0;
 
 function executar () {
-    
     if (estado < 1) {
         estado = 1;
         playAudio();
-        console.log(estado)
+        $('#som').removeClass('fa-solid fa-volume-high fa-beat-fade');
+        $('#som').addClass("fa-solid fa-volume-xmark fa-beat-fade");
     } else {
         estado = 0;
         pauseAudio();
-        console.log(estado);
+        $('#som').removeClass('fa-solid fa-volume-xmark fa-beat-fade');
+        $('#som').addClass("fa-solid fa-volume-high fa-beat-fade");
     }    
 }
+
