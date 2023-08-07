@@ -138,8 +138,18 @@
     max-width: 250px;
 }
 
+.mouse:hover {
+    background-color: #fff;
+    --bs-btn-active-bg: #fff;
+}
 
+.invisivelGrande {
+    opacity: 0;
+}
 
+.invisivelGrande:hover {    
+    cursor: default;
+}
 /*
  Testesssss
 */
