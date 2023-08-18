@@ -14,6 +14,9 @@ estado = 0;
 
 function executar () {
     if (estado != 1) {
+        if (estado == 0 ) { 
+            $('.sidebar').addClass('active');            
+        }
         estado = 1;
         pauseAudio();
         $('#som').removeClass('fa-solid fa-volume-high fa-beat-fade');
