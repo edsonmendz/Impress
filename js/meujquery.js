@@ -49,5 +49,11 @@ $(document).ready(function() {
     })
 
     // Música autoplay
-    
+      $('body').on('click', () => {
+        if (estado == 0 ) {        
+        playAudio();
+        $( ".open-btn" ).trigger( "click" );
+        estado = 2;
+        }
+      })
 })
