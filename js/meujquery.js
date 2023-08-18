@@ -52,7 +52,7 @@ $(document).ready(function() {
       $('body').on('click', () => {
         if (estado == 0 ) {        
         playAudio();
-        $( ".open-btn" ).trigger( "click" );
+        $('.sidebar').addClass('active');
         estado = 2;
         }
       })
